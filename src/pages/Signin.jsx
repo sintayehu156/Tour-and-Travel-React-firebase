@@ -72,28 +72,7 @@ const Signin = () => {
                   </div>
                 </form>
               </>
-            
-
-        {/* {error ? <p className='p-3'>{error}</p>: null }
-        <form onSubmit={handleSubmit}>
-          <div className="flex flex-col py-2">
-            <label className="py-2 font-mono ">Email Address</label>
-            <input onChange={(e) => setEmail(e.target.value)} className="border p-3 rounded-2xl" placeholder='email address' type="email" />
-          </div>
-          <div className="flex flex-col py-2">
-            <label className="py-2 font-medium " >Password</label>
-            <input onChange={(e) => setPassword(e.target.value)} className="border p-3 rounded-2xl" placeholder='password' type="password" />
-          </div>
-          <button className="border border-blue-500 bg-blue-500 w-full rounded-2xl p-4 my-2 text-white ">Sign In</button>
-            <div className='flex justify-between items-center'>
-            <p className="py-8">
-              <span className='text-gray-400'>
-                    You dont have an account yet? 
-              </span>{''}
-           <Link to='/signup'>Sign Up</Link>
-            </p>
-            </div>
-        </form> */}
+        
       </div>
             )}
     </div>
