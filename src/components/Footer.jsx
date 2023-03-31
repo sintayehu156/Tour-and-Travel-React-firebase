@@ -5,42 +5,42 @@ import {TiSocialPinterest} from 'react-icons/ti'
 const Footer = () => {
   return (
     <div className='w-full mt-24 bg-gray-800 text-gray-300 px-2 py-2 '>
-      <div className='max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 px-4'>
+      <div className='max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-400 py-8 px-4'>
         <div> 
           <h6 className='font-bold uppercare pt-2' >Solutions</h6>
           <ul>
-            <li className='py-1 lg:hover:text-blue-600'>Travel</li>
-            <li className='py-1 lg:hover:text-blue-600'>Booking</li>
-            <li className='py-1 lg:hover:text-blue-600'>Flights</li>
-            <li className='py-1 lg:hover:text-blue-600'>Ground</li>
+            <li className='py-1 lg:hover:text-blue-400'>Travel</li>
+            <li className='py-1 lg:hover:text-blue-400'>Booking</li>
+            <li className='py-1 lg:hover:text-blue-400'>Flights</li>
+            <li className='py-1 lg:hover:text-blue-400'>Ground</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercare pt-2' >Support</h6>
           <ul>
-            <li className='py-1 lg:hover:text-blue-600'>Pricing</li>
-            <li className='py-1 lg:hover:text-blue-600'>Documentation</li>
-            <li className='py-1 lg:hover:text-blue-600'>Tours</li>
-            <li className='py-1 lg:hover:text-blue-600'>Refunds</li>
+            <li className='py-1 lg:hover:text-blue-400'>Pricing</li>
+            <li className='py-1 lg:hover:text-blue-400'>Documentation</li>
+            <li className='py-1 lg:hover:text-blue-400'>Tours</li>
+            <li className='py-1 lg:hover:text-blue-400'>Refunds</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercare pt-2' >Company</h6>
           <ul>
-            <li className='py-1 lg:hover:text-blue-600'>About</li>
-            <li className='py-1 lg:hover:text-blue-600'>Blogs</li>
-            <li className='py-1 lg:hover:text-blue-600'>Jobs</li>
-            <li className='py-1 lg:hover:text-blue-600'>Press</li>
+            <li className='py-1 lg:hover:text-blue-400'>About</li>
+            <li className='py-1 lg:hover:text-blue-400'>Blogs</li>
+            <li className='py-1 lg:hover:text-blue-400'>Jobs</li>
+            <li className='py-1 lg:hover:text-blue-400'>Press</li>
           </ul>
         </div>
         <div>
           <h6 className='font-bold uppercare pt-2' >Legals</h6>
           <ul>
-            <li className='py-1 lg:hover:text-blue-600'>Claims</li>
-            <li className='py-1 lg:hover:text-blue-600'>Privecy</li>
-            <li className='py-1 lg:hover:text-blue-600'>Terms</li>
-            <li className='py-1 lg:hover:text-blue-600'>Policies</li>
-            <li className='py-1 lg:hover:text-blue-600'>Conditions</li>
+            <li className='py-1 lg:hover:text-blue-400'>Claims</li>
+            <li className='py-1 lg:hover:text-blue-400'>Privecy</li>
+            <li className='py-1 lg:hover:text-blue-400'>Terms</li>
+            <li className='py-1 lg:hover:text-blue-400'>Policies</li>
+            <li className='py-1 lg:hover:text-blue-400'>Conditions</li>
           </ul>
         </div>
         <div className='col-span-2 py-8 md:pt-2'>
@@ -48,7 +48,7 @@ const Footer = () => {
           <p className='py-4'>The Latest deals, articles</p>
           <form className='lex flec-col sm:flex-row'>
             <input className='w-full p-2 mr-4 rounded-md mb-4 hover:bg-gray-300 lg:hover:text-white ' type= "email" placeholder='Enter Email...' />
-            <button className='p-2 mb-4 rounded-md mr-4 hover:shadow-xl hover:bg-gray-300 lg:hover:text-black '>Subscribe</button>
+            <button className='p-2 mb-4 rounded-md mr-4 hover:shadow-xl lg:hover:text-white hover:bg-gray-600 '>Subscribe</button>
           </form>
         </div>
       </div>

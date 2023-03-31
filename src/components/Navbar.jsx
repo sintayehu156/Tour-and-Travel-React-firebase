@@ -67,16 +67,6 @@ const Navbar = () => {
                             Rooms
                         </Link>
                     </li>
-                    {/* <li>
-                        <Link
-                            to='/signup' onClick={() => {
-                                handleLinkClick();
-                                document.body.style.overflow = 'scroll';
-                            }}
-                        >
-                            <button className='text-blue-400 hover:bg-gray-600 lg:hover:text-white pr-4'>Sign Up</button>
-                        </Link>
-                    </li> */}
                     <li>
                         <Link
                             to='/signin' onClick={() => {
@@ -84,7 +74,7 @@ const Navbar = () => {
                                 document.body.style.overflow = '';
                             }}
                         >
-                            <button className='text-blue-400 pr-4 cursor-pointer hover:bg-gray-600 lg:hover:text-white'>
+                            <button className='bg-blue-400 text-black pr-4 cursor-pointer hover:bg-gray-600 lg:hover:text-white'>
                                 Sign In
                             </button>
                         </Link>
